@@ -10,7 +10,8 @@
 質問の各回答（HTMLのinputタグのvalue）の値を変える事で点数に差が発生するようにしました。  
 javascriptの条件分岐式で回答の合計値より結果画像を切替え、面白さを追加してみました。  
 jQueryのアニメーションにより各質問をスライドさせて表示させることによりシンプルで見やすい構造にしました。  
-フリーですので必要な方はご自由に使用願います。  
+フリーですので必要な方はご自由に使用願います。  
+各自自分の理想条件で加工すれば、お遊びで使える事間違いなしです（汗）  
 ## ファイルの構成
 ```
 ファイルの構成/
@@ -36,7 +37,7 @@ jQueryのアニメーションにより各質問をスライドさせて表示�
 ***
 ***
 
-# Website of calculate BMI
+# Website of Ideal_girlfriend_questionnaire
 ## Overview
 * this web site concept is calculate BMI.
 * use HTML5,CSS3,jQuery.
