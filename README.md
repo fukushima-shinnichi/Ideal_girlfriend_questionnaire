@@ -31,7 +31,7 @@ jQueryのアニメーションにより各質問をスライドさせて表示�
 1、全てのファイルをフォークし、ローカルにクローンを作成。  
 2、ローカルに保存したHTMLファイルをウェブブラウザで開く。  
 ## デモサイトURL（ポートフォリオURL）
-[http://s-fukushima.sakura.ne.jp/Ideal_girlfriend_questionnaire.html](http://sfukushima.sakura.ne.jp/Ideal_girlfriend_questionnaire.html "ポートフォリオURL")
+[http://s-fukushima.sakura.ne.jp/Ideal_girlfriend_questionnaire.html](http://s-fukushima.sakura.ne.jp/Ideal_girlfriend_questionnaire.html "ポートフォリオURL")
 
 ***
 ***
