@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>Ideal girlfriend questionnaire</title>
+<meta name="description" content="Ideal girlfriend questionnaire HTML,CSS,jQueryを使い理想の彼女を判別するアプリを作ってみました">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Carter+One|Coming+Soon|Kranky|Merienda|Mouse+Memoirs|Rancho" rel="stylesheet">
+<link rel="stylesheet" href="css/Ideal_girlfriend_questionnaire/Ideal_girlfriend_questionnaire.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<script src="jQuery_base/jquery-3.2.1.min.js"></script>
+<script src="jQuery_base/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+<script src="js/Ideal_girlfriend_questionnaire/Ideal_girlfriend_questionnaire.js"></script>
+</head>
+<body>
+  <!------------ start page ------------------>
+  <div class="start_page">
+    <h1>Ideal girlfriend questionnaire</h1>
+    <button><p>example</p><i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+  </div>
+  
+  <!------------ question page ------------------>
+  <div class="Q_home_page">
+    
+    <!---------------  left button  ------------------>
+    <div class="left_button push"><button><i class="fa fa-chevron-left" aria-hidden="true"></i></button></div>
+    
+    <!-----------------  question erea  -------------------->
+    <div class="question_view">
+      <div class="question_box">
+        
+        <!-------------------  each question  ------------------->
+          <!-------------  example  ------------------->
+        <div class="each_question example">
+          <h3>example question</h3>
+          <h3>what do you like food?</h3>
+          <div class="check_box">
+            <label>
+              <img src="img/img_Ideal_girlfriend_questionnaire/example/sushi_small.jpg">
+              <input type="radio" name="questionE" value="1">
+              <span>SUSHI</span>
+            </label>
+            <label>
+              <img src="img/img_Ideal_girlfriend_questionnaire/example/hamburger_small.jpg">
+              <input type="radio" name="questionE" value="0">
+              <span>Hamburger</span>
+            </label>
+            <label>
+              <img src="img/img_Ideal_girlfriend_questionnaire/example/pasta_small.jpg">
+              <input type="radio" name="questionE" value="0">
+              <span>Pasta</span>
+            </label>
+          </div>
+        </div>
+        <!-------------  /example  ------------------->
+        <!-------------  Q1  ------------------->
+        <div class="each_question Q1">
+          <h3>question 1</h3>
+          <h3>If you go to bar with boyfrend,which do you drink?</h3>
+          <div class="check_box">
+            <label>
+              <img src="img/img_Ideal_girlfriend_questionnaire/Q1/beer_small.jpg">
+              <input type="radio" name="question1" value="0">
+              <span>Beer</span>
+            </label>
+            <label>
+              <img src="img/img_Ideal_girlfriend_questionnaire/Q1/other_alcohol_small.jpg">
+              <input type="radio" name="question1" value="0">
+              <span>Other alcohol</span>
+            </label>
+            <label>
+              <img src="img/img_Ideal_girlfriend_questionnaire/Q1/soft_drink_small.jpg">
+              <input type="radio" name="question1" value="1">
+              <span>soft drink</span>
+            </label>
+          </div>
+        </div>
+        <!-------------  /Q1  ------------------->
+        <!-------------  Q2  ------------------->
+        <div class="each_question Q2">
+          <h3>question 2</h3>
+          <h3>Do you want to feed animals?</h3>
+          <div class="check_box">
+            <label>
+              <img src="img/img_Ideal_girlfriend_questionnaire/Q2/cat_small.jpg">
+              <input type="radio" name="question2" value="0">
+              <span>Yes</span>
+            </label>
+            <label>
+              <img src="img/img_Ideal_girlfriend_questionnaire/Q2/No_small.jpg">
+              <input type="radio" name="question2" value="1">
+              <span>No</span>
+            </label>
+            <label>
+              <img src="img/img_Ideal_girlfriend_questionnaire/Q2/Neither_Agree%20Nor_Disagree_small.jpg">
+              <input type="radio" name="question2" value="0">
+              <span>Neither Agree Nor Disagree</span>
+            </label>
+          </div>
+        </div>
+        <!-------------  /Q2  ------------------->
+        <!-------------  Q3  ------------------->
+        <div class="each_question Q3">
+          <h3>question 3</h3>
+          <h3>When drive date,which do you want to ride cars?</h3>
+          <div class="check_box">
+            <label>
+              <img src="img/img_Ideal_girlfriend_questionnaire/Q3/sportcar_small.jpg">
+              <input type="radio" name="question3" value="1">
+              <span>Sports car</span>
+            </label>
+            <label>
+              <img src="img/img_Ideal_girlfriend_questionnaire/Q3/SUV_small.jpg">
+              <input type="radio" name="question3" value="0">
+              <span>SUV</span>
+            </label>
+            <label>
+              <img src="img/img_Ideal_girlfriend_questionnaire/Q3/small_car_small.jpg">
+              <input type="radio" name="question3" value="0">
+              <span>Small car</span>
+            </label>
+          </div>
+        </div>
+        <!-------------  /Q3  ------------------->
+        <!-------------  Q4  ------------------->
+        <div class="each_question Q4">
+          <h3>question 4</h3>
+          <h3>What kind of girl do you want to become?</h3>
+          <div class="check_box">
+            <label>
+              <img src="img/img_Ideal_girlfriend_questionnaire/Q4/cute_small.jpg">
+              <input type="radio" name="question4" value="1">
+              <span>Smile & Cute</span>
+            </label>
+            <label>
+              <img src="img/img_Ideal_girlfriend_questionnaire/Q4/cool_small.jpg">
+              <input type="radio" name="question4" value="0">
+              <span>Cool & Beautiful</span>
+            </label>
+            <label>
+              <img src="img/img_Ideal_girlfriend_questionnaire/Q4/boysh_small.jpg">
+              <input type="radio" name="question4" value="0">
+              <span>Boyish</span>
+            </label>
+          </div>
+        </div>
+        <!-------------  /Q4  ------------------->
+        <!-------------  Q5  ------------------->
+        <div class="each_question Q5">
+          <h3>question 5</h3>
+          <h3>If you date with boyfriend,What kind of wear do you want in spring?</h3>
+          <div class="check_box">
+            <label>
+              <img src="img/img_Ideal_girlfriend_questionnaire/Q5/NG2.jpg">
+              <input type="radio" name="question5" value="0">
+              <span>clothes No,1</span>
+            </label>
+            <label>
+              <img src="img/img_Ideal_girlfriend_questionnaire/Q5/OK.jpg">
+              <input type="radio" name="question5" value="1">
+              <span>clothes No,2</span>
+            </label>
+            <label>
+              <img src="img/img_Ideal_girlfriend_questionnaire/Q5/NG1.jpg">
+              <input type="radio" name="question5" value="0">
+              <span>clothes No,3</span>
+            </label>
+          </div>
+        </div>
+        <!-------------  /Q5  ------------------->
+        <!-------------  Q6  ------------------->
+        <div class="each_question Q6">
+          <h3>question 6</h3>
+          <h3>If you date with boyfriend,What kind of wear do you want in summer?</h3>
+          <div class="check_box">
+            <label>
+              <img src="img/img_Ideal_girlfriend_questionnaire/Q6/NG1.jpg">
+              <input type="radio" name="question6" value="0">
+              <span>clothes No,1</span>
+            </label>
+            <label>
+              <img src="img/img_Ideal_girlfriend_questionnaire/Q6/OK.jpg">
+              <input type="radio" name="question6" value="1">
+              <span>clothes No,2</span>
+            </label>
+            <label>
+              <img src="img/img_Ideal_girlfriend_questionnaire/Q6/NG.jpg">
+              <input type="radio" name="question6" value="0">
+              <span>clothes No,3</span>
+            </label>
+          </div>
+        </div>
+        <!-------------  /Q6  ------------------->
+        <!-------------  Q7  ------------------->
+        <div class="each_question Q7">
+          <h3>question 7</h3>
+          <h3>If you date with boyfriend,What kind of wear do you want in winter?</h3>
+          <div class="check_box">
+            <label>
+              <img src="img/img_Ideal_girlfriend_questionnaire/Q7/NG.jpg">
+              <input type="radio" name="question7" value="0">
+              <span>clothes No,1</span>
+            </label>
+            <label>
+              <img src="img/img_Ideal_girlfriend_questionnaire/Q7/OK.jpg">
+              <input type="radio" name="question7" value="1">
+              <span>clothes No,2</span>
+            </label>
+            <label>
+              <img src="img/img_Ideal_girlfriend_questionnaire/Q7/NG2.jpg">
+              <input type="radio" name="question7" value="0">
+              <span>clothes No,3</span>
+            </label>
+          </div>
+        </div>
+        <!-------------  /Q7  ------------------->
+        <!-------------  Q8  ------------------->
+        <div class="each_question Q8">
+          <h3>question 8</h3>
+          <h3>If job of your boyfriend be temporary staff,What do you think?</h3>
+          <div class="check_box">
+            <label>
+              <img src="img/img_Ideal_girlfriend_questionnaire/Q8/dislike_small.jpg">
+              <input type="radio" name="question8" value="0">
+              <span>Dislike</span>
+            </label>
+            <label>
+              <img src="img/img_Ideal_girlfriend_questionnaire/Q8/not_covered_small.jpg">
+              <input type="radio" name="question8" value="0">
+              <span>Not covered</span>
+            </label>
+            <label>
+              <img src="img/img_Ideal_girlfriend_questionnaire/Q8/soso_small.jpg">
+              <input type="radio" name="question8" value="1">
+              <span>Soso</span>
+            </label>
+          </div>
+        </div>
+        <!-------------  /Q8  ------------------->
+        <!-------------  Q9  ------------------->
+        <div class="each_question Q9">
+          <h3>question 9</h3>
+          <h3>Do you like touching with boyfriend?</h3>
+          <div class="check_box">
+            <label>
+              <img src="img/img_Ideal_girlfriend_questionnaire/Q9/Yes_small.jpg">
+              <input type="radio" name="question9" value="1">
+              <span>Yes</span>
+            </label>
+            <label>
+              <img src="img/img_Ideal_girlfriend_questionnaire/Q9/No_small.jpg">
+              <input type="radio" name="question9" value="0">
+              <span>No</span>
+            </label>
+            <label>
+              <img src="img/img_Ideal_girlfriend_questionnaire/Q9/Neither_Agree%20Nor_Disagree_small.jpg">
+              <input type="radio" name="question9" value="0">
+              <span>Neither Agree Nor Disagree</span>
+            </label>
+          </div>
+        </div>
+        <!-------------  /Q9  ------------------->
+        <!-------------  Q10  ------------------->
+        <div class="each_question Q10">
+          <h3>question 10</h3>
+          <h3>Do you think that compatibility of the body is important?</h3>
+          <div class="check_box">
+            <label>
+              <img src="img/img_Ideal_girlfriend_questionnaire/Q10/Yes_small.jpg">
+              <input type="radio" name="question10" value="1">
+              <span>Yes</span>
+            </label>
+            <label>
+              <img src="img/img_Ideal_girlfriend_questionnaire/Q10/No_small.jpg"S>
+              <input type="radio" name="question10" value="0">
+              <span>No</span>
+            </label>
+            <label>
+              <img src="img/img_Ideal_girlfriend_questionnaire/Q10/Neither_Agree%20Nor_Disagree_small.jpg">
+              <input type="radio" name="question10" value="0">
+              <span>Neither Agree Nor Disagree</span>
+            </label>
+          </div>
+        </div>
+        <!-------------  /Q10  ------------------->
+        <!-------------  result  100 points------------------->
+        <div class="each_question result result_100">
+          <h3>result</h3>
+          <img src="img/img_Ideal_girlfriend_questionnaire/result/result_100.jpg">
+          <h3 class="result_IN">AAA</h3>
+          <h3>you're compatibility of outstanding girl.</h3>
+        </div>
+        <!-------------  /result  100 points  ------------------->
+        <!-------------  result  80 points over   ------------------->
+        <div class="each_question result result_80over">
+          <h3>result</h3>
+          <img src="img/img_Ideal_girlfriend_questionnaire/result/result_80.jpg">
+          <h3 class="result_IN">AAA</h3>
+          <h3>you're ideal girl.</h3>
+        </div>
+        <!-------------  /result  80 points over  ------------------->
+        <!-------------  result  80 points less------------------->
+        <div class="each_question result result_80less">
+          <h3>result</h3>
+          <img src="img/img_Ideal_girlfriend_questionnaire/result/result_70.jpg">
+          <h3 class="result_IN">AAA</h3>
+          <h3>you're ordinary girl.</h3>
+        </div>
+        <!-------------  /result  80 points less  ------------------->
+      </div>
+    </div>
+    <!-------------  right button  ------------------->
+    <div class="right_button push"><button><i class="fa fa-chevron-right" aria-hidden="true"></i></button></div>
+    
+    <!-------------  Speech balloon  ------------------->
+    <div class="speech_balloon checkAnswer">
+      <div class="comment">plese your answer check</div>
+      <div class="arrow"></div>
+      <div class="arrowIN"></div>
+    </div>
+    <div class="speech_balloon next">
+      <div class="comment">next question</div>
+      <div class="arrow"></div>
+      <div class="arrowIN"></div>
+    </div>
+    <div class="speech_balloon back">
+      <div class="comment">back question</div>
+      <div class="arrow"></div>
+      <div class="arrowIN"></div>
+    </div>
+  </div>
+
+</body>
+</html>

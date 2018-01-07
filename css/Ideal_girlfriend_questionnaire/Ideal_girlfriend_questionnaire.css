@@ -1,0 +1,304 @@
+/***********  PC CSS  ***************************/
+
+/*******   back graund img   *********/
+body {
+  background-image: url(img/main_backgraund.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/**********   start page   ********************/
+
+div.start_page{
+  width: 980px;
+  margin: 100px auto;
+  background-color: rgba(255,255,255,0.8);
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+div.start_page h1{
+  font-family: 'Kranky', cursive;
+  text-align: center;
+  font-size: 50px;
+  font-weight: normal;
+  margin: 100px 0px;
+}
+
+div.start_page p {
+  font-family: 'Coming Soon', cursive;
+  font-size: 40px;
+  margin: 30px;
+}
+
+div.start_page button {
+  border: none;
+  background-color: #faebd7;
+  padding: 0px;
+  overflow: hidden;
+  border-radius: 60.5px;
+  margin: 100px 333.11px;
+  cursor: pointer;
+}
+
+div.start_page p,div.start_page i{
+  float: left;
+}
+
+div.start_page i{
+  font-size: 61px;
+  margin: 30px;
+}
+
+div.start_page button:hover {
+  background-color: rgba(255,182,193,0.5);
+  color: #ff0;
+}
+
+/**********   question page    ********************/
+
+div.Q_home_page {
+  width: 1280px;
+  margin: 100px auto;
+  overflow: hidden;
+  background-color: rgba(255,255,255,0.8);
+  border-radius: 50px;
+  position: relative;
+  display: none;
+}
+
+div.push,div.question_view,div.each_question{
+  float: left;
+}
+
+div.push{
+  width: 100px;
+}
+
+div.question_view{
+  width: 1080px;
+  overflow: hidden;
+}
+
+div.question_box{
+  width: 50000px;
+}
+
+div.each_question{
+  width: 1080px;
+}
+
+div.check_box label{
+  width: 360px;
+  float: left;
+}
+
+div.each_question h3{
+  font-family: 'Rancho', cursive;
+  font-size: 50px;
+  text-align: center;
+}
+
+div.check_box label span{
+  width: 360px;
+  font-family: 'Rancho', cursive;
+  font-size: 30px;
+  text-align: center;
+  display: block;
+  margin: 20px 0px 100px 0px;
+}
+
+/***************   result page   ************************/
+div.result img {
+  width: 1080px;
+}
+
+div.result {
+  display: none;
+}
+
+
+/*******    question page left&right button    *********/
+div.push button{
+  border: none;
+  font-size: 60px;
+  background-color: #faebd7;
+  margin: 355px 0px 0px 5.5px;
+  padding: 10px;
+  width: 89px;
+  border-radius: 44.5px;
+  cursor: pointer;
+}
+
+div.push button i{
+  text-align: center;
+}
+
+div.push button:hover {
+  background-color: rgba(255,182,193,0.5);
+  color: #ff0;
+}
+
+/************check label***********************/
+
+input{
+  display: none;
+}
+
+input:checked + span::before{
+  font-family: FontAwesome;
+  content: "\f00c";
+  font-size: 100px;
+}
+
+label {
+  cursor: pointer;
+}
+
+/****************  Speech balloon  *******************/
+  /******     checkAnswer     *********/
+div.checkAnswer{
+  position: absolute;
+  top: 215px;
+  left: 150px;
+}
+
+div.comment {
+  border: solid 3px #ffff00;
+  border-radius: 5px;
+  position: relative;
+  background-color: rgba(255,182,193,0.5);
+  font-family: 'Carter One', cursive;
+  font-size: 20px;
+  color: #ff0;
+  padding: 5px;
+}
+
+div.arrow {
+  width: 0px;
+  height: 0px;
+  border: 15px solid transparent;
+  border-top: 15px solid #ff0;
+  position: absolute;
+  left: 30px;
+}
+
+div.arrowIN {
+  width: 0px;
+  height: 0px;
+  border: 15px solid transparent;
+  border-top: 15px solid rgba(255,182,193,1);
+  position: absolute;
+  top:43px;
+  left: 30px;
+}
+
+  /******     next     *********/
+div.next{
+  position: absolute;
+  top: 300px;
+  right: 5px;
+}
+
+div.next .arrow,div.next .arrowIN {
+  position: absolute;
+  left: auto;
+  right: 30px;
+}
+
+
+  /******     back    *********/
+div.back{
+  position: absolute;
+  top: 300px;
+  left: 5px;
+}
+
+/************   smart phone css   ***************************/
+@media screen and (max-width:767px){
+
+  /**********   start page   ********************/
+
+  div.start_page{
+    width: 375px;
+  }
+
+  div.start_page button {
+    margin: 100px 30.61px;
+  }
+
+  /**********   question page    ********************/
+
+  div.Q_home_page {
+    width: 375px;
+  }
+
+  div.push{
+    width: 50px;
+  }
+
+  div.question_view{
+    width: 275px;
+  }
+
+  div.each_question{
+    width: 275px;
+  }
+
+  div.check_box label{
+    width: 275px;
+    float: none;
+  }
+
+  div.check_box label img {
+    width: 275px;
+  }
+
+  div.check_box label span{
+    width: 275px;
+    margin: 20px 0px 20px 0px;
+  }
+
+  /***************   result page   ************************/
+  div.result img {
+    width: 275px;
+  }
+
+  /*******    question page left&right button    *********/
+  div.push button{
+    font-size: 50px;
+    margin: 520px 0px 0px 0px;
+    padding: 0px 7.14px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+  }
+
+  /************check label***********************/
+
+  input:checked + span::before{
+    font-size: 70px;
+  }
+
+
+  /****************  Speech balloon  *******************/
+    /******     checkAnswer     *********/
+  
+    div.checkAnswer{
+      top: 280px;
+      left: 50px;
+    }
+
+    /******     next     *********/
+    div.next{
+      top: 460px;
+    }
+
+    /******     back    *********/
+    div.back{
+      top: 460px;
+    }
+
+}
