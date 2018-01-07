@@ -18,20 +18,20 @@ jQueryのアニメーションにより各質問をスライドさせて表示�
 ├─ jQuery_base                                               # jQuery保存フォルダー
 ├─ fonts                                                     # webフォント(Font Awesome)保存フォルダー
 ├─ img                                                       # 画像保存フォルダー
-├─ calculatie_BMI.html                                       # トップページ（自身でコーディング）
+├─ Ideal_girlfriend_questionnaire.html                       # トップページ（自身でコーディング）
 ├─ css/
-|    └─ calculatie_BMI                                       # CSS保存フォルダー(Font Awesomeのcss保存)
+|    └─ Ideal_girlfriend_questionnaire                       # CSS保存フォルダー(Font Awesomeのcss保存)
 |           ├─ img                                           # 画像保存フォルダー（cssに埋込む用）
-|           └─ calculatie_BMI.css                            # CSSファイル（自身でコーディング）
+|           └─ Ideal_girlfriend_questionnaire.css            # CSSファイル（自身でコーディング）
 └─ js/
-    └─ calculatie_BMI                                        # jsファイル保存フォルダー
-           └─ calculatie_BMI.js                              # jsファイル（自身でコーディング）   
+    └─ Ideal_girlfriend_questionnaire                        # jsファイル保存フォルダー
+           └─ Ideal_girlfriend_questionnaire.js              # jsファイル（自身でコーディング）   
 ```
 ## インストール方法
 1、全てのファイルをフォークし、ローカルにクローンを作成。  
 2、ローカルに保存したHTMLファイルをウェブブラウザで開く。  
 ## デモサイトURL（ポートフォリオURL）
-[http://s-fukushima.sakura.ne.jp/Portfolio_BMI_site.html](http://s-fukushima.sakura.ne.jp/Portfolio_BMI_site.html "ポートフォリオURL")
+[http://s-fukushima.sakura.ne.jp/Ideal_girlfriend_questionnaire.html](http://sfukushima.sakura.ne.jp/Ideal_girlfriend_questionnaire.html "ポートフォリオURL")
 
 ***
 ***
