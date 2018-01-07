@@ -44,9 +44,9 @@ jQueryのアニメーションにより各質問をスライドさせて表示�
 * correspondence of responsive design.
 * my web design skill is this web site.
 ## Description
-your height and your weight input to calculate BMI.  
-result page change according to your BMI.  
-this skill is javascript of if sentence.     
+if she check each question, you will understand to she is Ideal girlfriend or not.  
+result page change according to her answer.  
+this skill is javascript of if sentence and HTML input tage.     
 ## Component file
 ```
 Component file/
@@ -54,17 +54,17 @@ Component file/
 ├─ jQuery_base                                               # folder of jQuery files.
 ├─ fonts                                                     # folder of web fonts.(saving in this folder at Font Awesome.)
 ├─ img                                                       # folder of images. 
-├─ calculatie_BMI.html                                       # Top page.（my coding）
+├─ Ideal_girlfriend_questionnaire.html                       # Top page.（my coding）
 ├─ css/
-|   └─ calculatie_BMI                                        # folder of css(saving in this folder at css of Font Awesome.)
+|   └─ Ideal_girlfriend_questionnaire                        # folder of css(saving in this folder at css of Font Awesome.)
 |          ├─ img                                            # folder of images.（image of this folder enter to css.）
-|          └─ calculatie_BMI.css                             # file of top page css.（my coding）
+|          └─ Ideal_girlfriend_questionnaire.css             # file of top page css.（my coding）
 └─ js/
-    └─ calculatie_BMI                                        # folder of js.
-           └─ calculatie_BMI.js                              # file of top page js.(my coding)
+    └─ Ideal_girlfriend_questionnaire                        # folder of js.
+           └─ Ideal_girlfriend_questionnaire.js              # file of top page js.(my coding)
 ```
 ## Install
 1、all files do fork and this all files do clone in local.  
 2、this local files open to web browser.  
 ## URL of Demo site(URL of my portfolio site)
-[http://s-fukushima.sakura.ne.jp/Portfolio_BMI_site.html](http://s-fukushima.sakura.ne.jp/Portfolio_BMI_site.html "URL of my portfolio site")
+[http://s-fukushima.sakura.ne.jp/Ideal_girlfriend_questionnaire.html](http://s-fukushima.sakura.ne.jp/Ideal_girlfriend_questionnaire.html "URL of my portfolio site")
