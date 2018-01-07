@@ -37,7 +37,7 @@ jQueryのアニメーションにより各質問をスライドさせて表示�
 ***
 ***
 
-# Website of Ideal_girlfriend_questionnaire
+# Website of Ideal girlfriend questionnaire
 ## Overview
 * this web site concept is you will understand Ideal girlfriend.
 * use HTML5,CSS3,jQuery.
