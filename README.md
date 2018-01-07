@@ -39,7 +39,7 @@ jQueryのアニメーションにより各質問をスライドさせて表示�
 
 # Website of Ideal_girlfriend_questionnaire
 ## Overview
-* this web site concept is calculate BMI.
+* this web site concept is you will understand Ideal girlfriend.
 * use HTML5,CSS3,jQuery.
 * correspondence of responsive design.
 * my web design skill is this web site.
