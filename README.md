@@ -46,7 +46,8 @@ jQueryのアニメーションにより各質問をスライドさせて表示�
 ## Description
 if she check each question, you will understand to she is Ideal girlfriend or not.  
 result page change according to her answer.  
-this skill is javascript of if sentence and HTML input tage.     
+this skill is javascript of if sentence and HTML input tage.    
+Let's customize to your conditions.  
 ## Component file
 ```
 Component file/
